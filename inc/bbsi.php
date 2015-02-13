@@ -11,11 +11,16 @@ class BBsi {
 		add_action('admin_menu', array($this, 'add_page'));
 		add_shortcode('bb_social_icons', array($this, 'bb_social_icons_shortcode'));
 		add_filter( 'widget_text', 'do_shortcode');
+		add_action('init', array($this,'add_styles'));
 	}
 
+	function add_styles(){
+		if(!is_admin()){ //solo mostramos en front
+			wp_enqueue_style( 'bbsi_icons', BBSI_URL_PATH.'assets/icons/style.css', array(), BBSI_VERSION );
+			wp_enqueue_style( 'bbsi_style', BBSI_URL_PATH.'style.css', array('bbsi_icons'), BBSI_VERSION );
+		}
+	}
 	function bb_social_icons_shortcode($atts){
-		wp_enqueue_style( 'bbsi_icons', BBSI_URL_PATH.'assets/icons/style.css', array(), BBSI_VERSION );
-		wp_enqueue_style( 'bbsi_style', BBSI_URL_PATH.'style.css', array('bbsi_icons'), BBSI_VERSION );
 		
 		$options = get_option($this->option_name);
 		$a = shortcode_atts( array(
@@ -33,7 +38,8 @@ class BBsi {
 		'.bbsi.'.$hover_class.' a:hover i{color:'.$a['color_hover'].'}'.
 		'.bbsi.'.$size_class.' a,.bbsi.'.$size_class.' a i{font-size:'.$a['icon_size'].'px !important}'.
 		'.bbsi.'.$trans_class.' a i{transition:color '.$a['transition'].'ms ease}';
-		wp_add_inline_style('bbsi_style', $custom_css);
+		//wp_add_inline_style('bbsi_style', $custom_css);
+		echo '<style scoped>'.$custom_css.'</style>'; //hideous, pero no puedo agregarme al head una vez que estoy procesando custom atts, y no puedo hacerlo inline por el hover
 		
 		$socials = json_decode($options['socials']);
 		$output = "<ul class=\"bbsi {$hover_class} {$color_class} {$trans_class} {$size_class}\" >";
