@@ -168,7 +168,7 @@ class BBsi {
 			foreach ( $input['socials']['icon'] as $k => $icon ) {
 				if( $icon != '' && $input['socials']['link'][$k] != '' ) {
 					$out[$k]['icon'] = $icon;
-					$out[$k]['link'] = esc_url( $input['socials']['link'][$k], ['http', 'https', 'ftp', 'ftps', 'mailto', 'skype'] );
+					$out[$k]['link'] = esc_url( $input['socials']['link'][$k], array('http', 'https', 'ftp', 'ftps', 'mailto', 'skype') );
 				}
 			}
 		}

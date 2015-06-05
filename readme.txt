@@ -3,7 +3,7 @@ Tags: social icons, wordpress social icons, wordpress font icons, social font ic
 Contributors:BeBetter,magnigenie.com(original) 
 Requires at least: 3.0
 Tested up to: 4.2.2
-Stable tag: 2.3
+Stable tag: 2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,9 @@ It is a fork of WP Social Icons from http://magnigenie.com/wp-social-icons-easil
 5. Go to Settings > BB Social Icons and start playing with the configurations.
 
 == ChangeLog ==
+
+= Version 2.4 =
+* Used php 5.4 array literals and broke site in old servers
 
 = Version 2.3 =
 * Added skype as an allowed protocol for links
