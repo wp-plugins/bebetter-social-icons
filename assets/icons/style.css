@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'bbsi';
-	src:url('fonts/bbsi.eot?-tfwtxs');
-	src:url('fonts/bbsi.eot?#iefix-tfwtxs') format('embedded-opentype'),
-		url('fonts/bbsi.woff?-tfwtxs') format('woff'),
-		url('fonts/bbsi.ttf?-tfwtxs') format('truetype'),
-		url('fonts/bbsi.svg?-tfwtxs#bbsi') format('svg');
+	src:url('fonts/bbsi.eot?yzcqdh');
+	src:url('fonts/bbsi.eot?#iefixyzcqdh') format('embedded-opentype'),
+		url('fonts/bbsi.ttf?yzcqdh') format('truetype'),
+		url('fonts/bbsi.woff?yzcqdh') format('woff'),
+		url('fonts/bbsi.svg?yzcqdh#bbsi') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,811 +23,645 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.bbicon-reserve-en-r-g:before {
+	content: "\e638";
+}
+.bbicon-reserve-en-r-m:before {
+	content: "\e639";
+}
+.bbicon-reserve-en-s-g:before {
+	content: "\e63a";
+}
+.bbicon-reserve-en-s-m:before {
+	content: "\e63b";
+}
+.bbicon-reserve-pt-r-g:before {
+	content: "\e63c";
+}
+.bbicon-reserve-pt-r-m:before {
+	content: "\e63d";
+}
+.bbicon-reserve-pt-s-g:before {
+	content: "\e63e";
+}
+.bbicon-reserve-pt-s-m:before {
+	content: "\e63f";
+}
 .bbicon-reserve-r-g:before {
 	content: "\e613";
 }
-
+.bbicon-reserve-es-r-g:before {
+	content: "\e613";
+}
 .bbicon-reserve-r-m:before {
 	content: "\e635";
 }
-
+.bbicon-reserve-es-r-m:before {
+	content: "\e635";
+}
 .bbicon-reserve-s-g:before {
 	content: "\e636";
 }
-
+.bbicon-reserve-es-s-g:before {
+	content: "\e636";
+}
 .bbicon-reserve-s-m:before {
 	content: "\e637";
 }
-
+.bbicon-reserve-es-s-m:before {
+	content: "\e637";
+}
 .bbicon-free-wi-fi:before {
 	content: "\e600";
 }
-
 .bbicon-trip_cuadrado_opaco:before {
 	content: "\e607";
 }
-
 .bbicon-trip_redondo_opaco:before {
 	content: "\e608";
 }
-
 .bbicon-facebook:before {
 	content: "\e601";
 }
-
 .bbicon-googleplus:before {
 	content: "\e602";
 }
-
 .bbicon-instagram:before {
 	content: "\e603";
 }
-
 .bbicon-rss:before {
 	content: "\e604";
 }
-
 .bbicon-rss-alt:before {
 	content: "\e605";
 }
-
 .bbicon-mail:before {
 	content: "\e606";
 }
-
 .bbicon-twitter:before {
 	content: "\e609";
 }
-
 .bbicon-phone:before {
 	content: "\e60a";
 }
-
 .bbicon-skype:before {
 	content: "\e60b";
 }
-
 .bbicon-mail2:before {
 	content: "\f03b";
 }
-
 .bbicon-rss2:before {
 	content: "\f034";
 }
-
 .bbicon-uniE60B:before {
 	content: "\e60c";
 }
-
 .bbicon-uniE60C:before {
 	content: "\e60d";
 }
-
 .bbicon-uniE60D:before {
 	content: "\e60e";
 }
-
 .bbicon-uniE60E:before {
 	content: "\e60f";
 }
-
 .bbicon-uniE60F:before {
 	content: "\e610";
 }
-
 .bbicon-uniE610:before {
 	content: "\e611";
 }
-
 .bbicon-uniE611:before {
 	content: "\e612";
 }
-
 .bbicon-uniE614:before {
 	content: "\e614";
 }
-
 .bbicon-play:before {
 	content: "\e615";
 }
-
 .bbicon-envelope:before {
 	content: "\e616";
 }
-
 .bbicon-mail3:before {
 	content: "\e617";
 }
-
 .bbicon-mail4:before {
 	content: "\e618";
 }
-
 .bbicon-mail5:before {
 	content: "\e619";
 }
-
 .bbicon-mail6:before {
 	content: "\e61a";
 }
-
 .bbicon-google:before {
 	content: "\e61b";
 }
-
 .bbicon-googleplus2:before {
 	content: "\e61c";
 }
-
 .bbicon-googleplus3:before {
 	content: "\e61d";
 }
-
 .bbicon-googleplus4:before {
 	content: "\e61e";
 }
-
 .bbicon-googleplus5:before {
 	content: "\e61f";
 }
-
 .bbicon-facebook2:before {
 	content: "\e620";
 }
-
 .bbicon-facebook3:before {
 	content: "\e621";
 }
-
 .bbicon-facebook4:before {
 	content: "\e622";
 }
-
 .bbicon-instagram2:before {
 	content: "\e623";
 }
-
 .bbicon-twitter2:before {
 	content: "\e624";
 }
-
 .bbicon-twitter3:before {
 	content: "\e625";
 }
-
 .bbicon-twitter4:before {
 	content: "\e626";
 }
-
 .bbicon-feed:before {
 	content: "\e627";
 }
-
 .bbicon-feed2:before {
 	content: "\e628";
 }
-
 .bbicon-feed3:before {
 	content: "\e629";
 }
-
 .bbicon-youtube:before {
 	content: "\e62a";
 }
-
 .bbicon-youtube2:before {
 	content: "\e62b";
 }
-
 .bbicon-vimeo:before {
 	content: "\e62c";
 }
-
 .bbicon-vimeo2:before {
 	content: "\e62d";
 }
-
 .bbicon-vimeo3:before {
 	content: "\e62e";
 }
-
 .bbicon-flickr:before {
 	content: "\e62f";
 }
-
 .bbicon-flickr2:before {
 	content: "\e630";
 }
-
 .bbicon-flickr3:before {
 	content: "\e631";
 }
-
 .bbicon-flickr4:before {
 	content: "\e632";
 }
-
 .bbicon-picassa:before {
 	content: "\e633";
 }
-
 .bbicon-picassa2:before {
 	content: "\e634";
 }
-
 .bbicon-wordpress:before {
 	content: "\e643";
 }
-
 .bbicon-wordpress2:before {
 	content: "\e644";
 }
-
 .bbicon-blogger:before {
 	content: "\e646";
 }
-
 .bbicon-blogger2:before {
 	content: "\e647";
 }
-
 .bbicon-tumblr:before {
 	content: "\e648";
 }
-
 .bbicon-tumblr2:before {
 	content: "\e649";
 }
-
 .bbicon-yahoo:before {
 	content: "\e64a";
 }
-
 .bbicon-skype2:before {
 	content: "\e653";
 }
-
 .bbicon-linkedin:before {
 	content: "\e655";
 }
-
 .bbicon-delicious:before {
 	content: "\e658";
 }
-
 .bbicon-stumbleupon:before {
 	content: "\e659";
 }
-
 .bbicon-stumbleupon2:before {
 	content: "\e65a";
 }
-
 .bbicon-pinterest:before {
 	content: "\e65c";
 }
-
 .bbicon-pinterest2:before {
 	content: "\e65d";
 }
-
 .bbicon-xing:before {
 	content: "\e65e";
 }
-
 .bbicon-xing2:before {
 	content: "\e65f";
 }
-
 .bbicon-flattr:before {
 	content: "\e660";
 }
-
 .bbicon-foursquare:before {
 	content: "\e661";
 }
-
 .bbicon-foursquare2:before {
 	content: "\e662";
 }
-
 .bbicon-paypal:before {
 	content: "\e663";
 }
-
 .bbicon-paypal2:before {
 	content: "\e664";
 }
-
 .bbicon-paypal3:before {
 	content: "\e665";
 }
-
 .bbicon-yelp:before {
 	content: "\e666";
 }
-
 .bbicon-instagram3:before {
 	content: "\e667";
 }
-
 .bbicon-facebook5:before {
 	content: "\e668";
 }
-
 .bbicon-delicious2:before {
 	content: "\e669";
 }
-
 .bbicon-googleplus6:before {
 	content: "\e66a";
 }
-
 .bbicon-video:before {
 	content: "\e011";
 }
-
 .bbicon-aperture:before {
 	content: "\e056";
 }
-
 .bbicon-facebook6:before {
 	content: "\e05d";
 }
-
 .bbicon-twitter5:before {
 	content: "\e05e";
 }
-
 .bbicon-googleplus7:before {
 	content: "\e05f";
 }
-
 .bbicon-rss3:before {
 	content: "\e060";
 }
-
 .bbicon-tumblr3:before {
 	content: "\e061";
 }
-
 .bbicon-linkedin2:before {
 	content: "\e062";
 }
-
 .bbicon-dribbble6:before {
 	content: "\e063";
 }
-
 .bbicon-uniE66C:before {
 	content: "\e66c";
 }
-
 .bbicon-uniE66D:before {
 	content: "\e66d";
 }
-
 .bbicon-uniE66E:before {
 	content: "\e66e";
 }
-
 .bbicon-uniE66F:before {
 	content: "\e66f";
 }
-
 .bbicon-uniE670:before {
 	content: "\e670";
 }
-
 .bbicon-uniE671:before {
 	content: "\e671";
 }
-
 .bbicon-uniE673:before {
 	content: "\e673";
 }
-
 .bbicon-uniE674:before {
 	content: "\e674";
 }
-
 .bbicon-uniE675:before {
 	content: "\e675";
 }
-
 .bbicon-uniE676:before {
 	content: "\e676";
 }
-
 .bbicon-uniE677:before {
 	content: "\e677";
 }
-
 .bbicon-facebook7:before {
 	content: "\e678";
 }
-
 .bbicon-twitter-old:before {
 	content: "\e679";
 }
-
 .bbicon-feed4:before {
 	content: "\e67a";
 }
-
 .bbicon-bird:before {
 	content: "\e67b";
 }
-
 .bbicon-chat:before {
 	content: "\e67c";
 }
-
 .bbicon-envelope2:before {
 	content: "\e67d";
 }
-
 .bbicon-envelope3:before {
 	content: "\e67e";
 }
-
 .bbicon-phone2:before {
 	content: "\e67f";
 }
-
 .bbicon-phone3:before {
 	content: "\e680";
 }
-
 .bbicon-uniE681:before {
 	content: "\e681";
 }
-
 .bbicon-uniE682:before {
 	content: "\e682";
 }
-
 .bbicon-uniE683:before {
 	content: "\e683";
 }
-
 .bbicon-uniE684:before {
 	content: "\e684";
 }
-
 .bbicon-uniE685:before {
 	content: "\e685";
 }
-
 .bbicon-uniE686:before {
 	content: "\e686";
 }
-
 .bbicon-mail7:before {
 	content: "\e687";
 }
-
 .bbicon-feed5:before {
 	content: "\e688";
 }
-
 .bbicon-social-twitter:before {
 	content: "\e689";
 }
-
 .bbicon-social-facebook:before {
 	content: "\e68a";
 }
-
 .bbicon-social-vimeo:before {
 	content: "\e68c";
 }
-
 .bbicon-social-tumbler:before {
 	content: "\e68d";
 }
-
 .bbicon-social-skype:before {
 	content: "\e68e";
 }
-
 .bbicon-social-pinterest:before {
 	content: "\e68f";
 }
-
 .bbicon-social-linkedin:before {
 	content: "\e690";
 }
-
 .bbicon-social-flickr:before {
 	content: "\e693";
 }
-
 .bbicon-social-last-fm-circular:before {
 	content: "\e694";
 }
-
 .bbicon-compass:before {
 	content: "\e696";
 }
-
 .bbicon-social-vimeo-circular:before {
 	content: "\e697";
 }
-
 .bbicon-social-twitter-circular:before {
 	content: "\e698";
 }
-
 .bbicon-social-pinterest-circular:before {
 	content: "\e699";
 }
-
 .bbicon-social-linkedin-circular:before {
 	content: "\e69a";
 }
-
 .bbicon-social-facebook-circular:before {
 	content: "\e69b";
 }
-
 .bbicon-social-dribbble-circular:before {
 	content: "\e69c";
 }
-
 .bbicon-social-tumbler-circular:before {
 	content: "\e69d";
 }
-
 .bbicon-social-skype-outline:before {
 	content: "\e69e";
 }
-
 .bbicon-social-flickr-circular:before {
 	content: "\e69f";
 }
-
 .bbicon-social-at-circular:before {
 	content: "\e6a0";
 }
-
 .bbicon-pinterest3:before {
 	content: "\f0d2";
 }
-
 .bbicon-pinterest-square:before {
 	content: "\f0d3";
 }
-
 .bbicon-google-plus-square:before {
 	content: "\f0d4";
 }
-
 .bbicon-google-plus:before {
 	content: "\f0d5";
 }
-
 .bbicon-envelope4:before {
 	content: "\f0e0";
 }
-
 .bbicon-linkedin3:before {
 	content: "\f0e1";
 }
-
 .bbicon-maxcdn:before {
 	content: "\f136";
 }
-
 .bbicon-youtube-square:before {
 	content: "\f166";
 }
-
 .bbicon-youtube3:before {
 	content: "\f167";
 }
-
 .bbicon-xing-square:before {
 	content: "\f169";
 }
-
 .bbicon-dropbox:before {
 	content: "\f16b";
 }
-
 .bbicon-stack-overflow:before {
 	content: "\f16c";
 }
-
 .bbicon-instagram4:before {
 	content: "\f16d";
 }
-
 .bbicon-flickr5:before {
 	content: "\f16e";
 }
-
 .bbicon-adn:before {
 	content: "\f170";
 }
-
 .bbicon-bitbucket:before {
 	content: "\f171";
 }
-
 .bbicon-bitbucket-square:before {
 	content: "\f172";
 }
-
 .bbicon-tumblr4:before {
 	content: "\f173";
 }
-
 .bbicon-tumblr-square:before {
 	content: "\f174";
 }
-
 .bbicon-skype3:before {
 	content: "\f17e";
 }
-
 .bbicon-gittip:before {
 	content: "\f184";
 }
-
 .bbicon-vk:before {
 	content: "\f189";
 }
-
 .bbicon-vimeo-square:before {
 	content: "\f194";
 }
-
 .bbicon-tencent-weibo:before {
 	content: "\f1d5";
 }
-
 .bbicon-github7:before {
 	content: "\e6a2";
 }
-
 .bbicon-flickr6:before {
 	content: "\e6a3";
 }
-
 .bbicon-flickr7:before {
 	content: "\e6a4";
 }
-
 .bbicon-vimeo4:before {
 	content: "\e6a5";
 }
-
 .bbicon-vimeo5:before {
 	content: "\e6a6";
 }
-
 .bbicon-twitter6:before {
 	content: "\e6a7";
 }
-
 .bbicon-twitter7:before {
 	content: "\e6a8";
 }
-
 .bbicon-facebook8:before {
 	content: "\e6a9";
 }
-
 .bbicon-facebook9:before {
 	content: "\e6aa";
 }
-
 .bbicon-facebook10:before {
 	content: "\e6ab";
 }
-
 .bbicon-googleplus8:before {
 	content: "\e6ac";
 }
-
 .bbicon-googleplus9:before {
 	content: "\e6ad";
 }
-
 .bbicon-pinterest4:before {
 	content: "\e6ae";
 }
-
 .bbicon-pinterest5:before {
 	content: "\e6af";
 }
-
 .bbicon-tumblr5:before {
 	content: "\e6b0";
 }
-
 .bbicon-tumblr6:before {
 	content: "\e6b1";
 }
-
 .bbicon-linkedin4:before {
 	content: "\e6b2";
 }
-
 .bbicon-linkedin5:before {
 	content: "\e6b3";
 }
-
 .bbicon-stumbleupon3:before {
 	content: "\e6b6";
 }
-
 .bbicon-stumbleupon4:before {
 	content: "\e6b7";
 }
-
 .bbicon-rdio:before {
 	content: "\e6ba";
 }
-
 .bbicon-rdio2:before {
 	content: "\e6bb";
 }
-
 .bbicon-qq2:before {
 	content: "\e6be";
 }
-
 .bbicon-instagram5:before {
 	content: "\e6bf";
 }
-
 .bbicon-dropbox2:before {
 	content: "\e6c0";
 }
-
 .bbicon-evernote:before {
 	content: "\e6c1";
 }
-
 .bbicon-flattr2:before {
 	content: "\e6c2";
 }
-
 .bbicon-skype4:before {
 	content: "\e6c3";
 }
-
 .bbicon-skype5:before {
 	content: "\e6c4";
 }
-
 .bbicon-renren2:before {
 	content: "\e6c5";
 }
-
 .bbicon-paypal4:before {
 	content: "\e6c7";
 }
-
 .bbicon-picasa:before {
 	content: "\e6c8";
 }
-
 .bbicon-mixi:before {
 	content: "\e6ca";
 }
-
 .bbicon-circles:before {
 	content: "\e6cc";
 }
-
 .bbicon-vk2:before {
 	content: "\e6cd";
 }
-
 .bbicon-smashing:before {
 	content: "\e6ce";
 }
-
